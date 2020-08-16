@@ -1,0 +1,22 @@
+
+
+#sidebar {
+    margin:-9px;
+    position: fixed;
+    height: 100vh;
+    width: 20vw;
+    background: #e3e3e3;
+    /* Just so it's visible */
+}
+
+#content {
+    margin:-8px;
+    width: 74vw !important;
+    padding-left: 25vw;
+    /* Grow to rest of container */
+    background: rgb(238, 232, 144);
+    /* Just so it's visible */
+}
+body {
+    margin: 0 !important;
+}

@@ -1,1 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
+
+.clickable {
+    cursor: pointer;
+}
+
+.hor-line {
+    height: 6px;
+    border-width: 0;
+    color: white;
+    background-color: white;
+    text-align: left;
+    margin-left: 0
+}
