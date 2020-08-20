@@ -1,0 +1,6 @@
+{
+    "rgxLowerCase": "([a-z0-9])",
+    "rgUpperCase": "([A-Z0-9])",
+    "rgxNoSpecials": "([a-zA-Z0-9]+'?)",
+    "rgxNoAccents": "([a-zA-Z0-9])"
+}

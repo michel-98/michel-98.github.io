@@ -1,0 +1,15 @@
+{
+	"ambiente": "svil",
+	"serverSGPA": "https://sgpa-auth-sv-os.intra.infocamere.it/",
+    "serverIstaSGPA": "https://sgpa-ista-sv.ossv.intra.infocamere.it/",
+    "serverUtilSGPA": "https://sgpa-util-sv.ossv.intra.infocamere.it/",
+    "serverCoreMIBC": "https://mibc-core-sv.ossv.intra.infocamere.it/",
+    "serverCorePRCA": "https://prca-core-sv.ossv.intra.infocamere.it/",
+    "pageLoginCallback": "http://127.0.0.1:4200/loginCallback",
+    "pageLoginCallback_svil": "https://mibcsv.intra.infocamere.it/loginCallback/",
+    "project":"prca",
+    "hpOnly":false,
+    "test": true,
+    "logs": true,
+    "isProd": false
+}

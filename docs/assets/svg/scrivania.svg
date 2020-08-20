@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="221px" height="163px" viewBox="0 0 221 163" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>95E1069E-5BF6-4D60-86D9-7E58BF4DDA18@3x</title>
+    <g id="Home-pubb" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="home-pub" transform="translate(-962.000000, -858.000000)" fill-rule="nonzero">
+            <g id="Group" transform="translate(962.000000, 858.000000)">
+                <path d="M175.603175,114 L169.396825,114 C165.015873,114 161,110.521739 161,106 L161,98 C161,93.826087 164.650794,90 169.396825,90 L175.603175,90 C179.984127,90 184,93.4782609 184,98 L184,106 C183.634921,110.521739 179.984127,114 175.603175,114 Z" id="Path" fill="#0059B3"></path>
+                <rect id="Rectangle" fill="#0059B3" x="40" y="0" width="141" height="76"></rect>
+                <rect id="Rectangle" fill="#757779" x="101" y="77" width="18" height="21"></rect>
+                <rect id="Rectangle" fill="#0059B3" x="66" y="92" width="89" height="12"></rect>
+                <path d="M34.75,97 L10.25,97 C7.45,97 5,94.6666667 5,92 L5,92 C5,89.3333333 7.45,87 10.25,87 L34.75,87 C37.55,87 40,89.3333333 40,92 L40,92 C40,94.6666667 37.55,97 34.75,97 Z" id="Path" fill="#757779"></path>
+                <path d="M30.6551724,87 L10.3448276,87 C7.49425287,87 5,84.6666667 5,82 L5,82 C5,79.3333333 7.49425287,77 10.3448276,77 L30.6551724,77 C33.5057471,77 36,79.3333333 36,82 L36,82 C36,85 33.5057471,87 30.6551724,87 Z" id="Path" fill="#757779"></path>
+                <g transform="translate(0.000000, 60.000000)" fill="#757779" id="Rectangle">
+                    <rect x="0.353344877" y="34.8068966" width="220.487203" height="38.0034483"></rect>
+                    <rect x="0.353344877" y="64.6413793" width="22.6140722" height="38.0034483"></rect>
+                    <rect x="198.226476" y="64.6413793" width="22.6140722" height="38.0034483"></rect>
+                    <rect x="198.226476" y="16.337931" width="20.4940029" height="23.7965517"></rect>
+                    <rect x="202.81996" y="2.84137931" width="2.82675902" height="18.1137931"></rect>
+                    <polygon transform="translate(212.113036, 9.328994) rotate(-76.597417) translate(-212.113036, -9.328994) " points="203.058572 9.12449743 221.168001 9.10348106 221.1675 9.53349084 203.058071 9.55450722"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
