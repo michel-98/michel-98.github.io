@@ -514,7 +514,8 @@
             ["485", "Zora Neale Hurston", "Yaoundé", "Academic Work", "Francis Bacon", "Bangkok", "25/08/1972"],
             ["486", "Zora Neale Hurston", "Yaoundé", "Academic Work", "Svante Arrhenius", "Bangkok", "25/08/1972"],
             ["487", "Zora Neale Hurston", "Yaoundé", "Colleges", "Arnold Sommerfeld", "Bangkok", "23/09/1972"],
-            ["488", "Zora Neale Hurston", "Yaoundé", "Academic Work", "Bill Nye", "Bangkok", "23/09/1972"]
+            ["488", "Zora Neale Hurston", "Yaoundé", "Academic Work", "Bill Nye", "Bangkok", "23/09/1972"],
+            ["489", "Anders Celsius", "Hanoi", "Academic L Work", "Anders Celsius", "Hanoi", "25/08/1966"]
         ]
     },
     "networkCubeDataSet": {
@@ -1386,7 +1387,8 @@
             ["485", 143, 1, "Academic Work", 113, 9, "1972-08-25 12:00:00"],
             ["486", 143, 1, "Academic Work", 142, 9, "1972-08-25 12:00:00"],
             ["487", 143, 1, "Colleges", 189, 9, "1972-09-23 12:00:00"],
-            ["488", 143, 1, "Academic Work", 183, 9, "1972-09-23 12:00:00"]
+            ["488", 143, 1, "Academic Work", 183, 9, "1972-09-23 12:00:00"],
+            ["489 ", 80, 25, "Academic L Work ", 80, 25, "1966 - 08 - 25 12: 00: 00 "]
         ],
         "nodeSchema": {
             "name": "nodeSchema",
