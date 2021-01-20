@@ -1,14 +1,25 @@
-/* You can add global styles to this file, and also import other style files */
-
 .clickable {
     cursor: pointer;
 }
+.icon.icon-xs {
+    width: 16px;
+    height: 16px;
+}
 
-.hor-line {
-    height: 6px;
-    border-width: 0;
-    color: white;
-    background-color: white;
-    text-align: left;
-    margin-left: 0
+.icon {
+    width: 32px;
+    height: 32px;
+    vertical-align: middle;
+}
+.icon.icon-sm {
+    width: 24px;
+    height: 24px;
+}
+.icon.icon-lg {
+    width: 48px;
+    height: 48px;
+}
+.icon.icon-xl {
+    width: 64px;
+    height: 64px;
 }

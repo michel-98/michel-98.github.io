@@ -1,0 +1,39 @@
+.border-info-top {
+
+  padding-top: 1rem;
+  margin-bottom: 1rem;
+  border-top: 5px solid black;
+}
+
+.border-info-center {
+  border-top: 5px solid black;
+  border-bottom: 5px solid black;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+
+}
+
+.border-info-bottom {
+  padding-bottom: 1rem;
+  margin-top: 1rem;
+  border-bottom: 5px solid black;
+}
+
+li:first-child {
+    list-style-type: none; 
+ }
+ .pl-none{
+     padding-left: none!important;
+ }
+
+ .link-social{
+     color:black;
+ }
+ 
+ .link-social:hover{
+    color:black;
+}
+.bold-info{
+    padding-top :4px;
+    margin-right :4px;
+}

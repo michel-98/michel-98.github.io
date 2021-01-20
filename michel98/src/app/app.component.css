@@ -1,22 +1,19 @@
 .sidebar {
-  height: 90vh;
   width: 20vw;
-  padding-top: 10vw;
 }
 
 .content {
-  height: 90vh;
   width: 80vw !important;
   padding-left: 20vw;
-  padding-top: 10vw;
-
 }
 
 .header {
-  height: 10vh;
+  height:fit-content;
   margin: 0 !important;
 }
 
-body {
-  margin: 0 !important;
+.app{
+  background-color: rgba(207, 203, 182, 0.650);
+  width: 99vw;
+  margin-right:0px!important;
 }
