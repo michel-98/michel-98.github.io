@@ -1,5 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { NbEvaIconsModule } from '@nebular/eva-icons';
+import { NbIconModule, NbThemeModule } from '@nebular/theme';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ContentComponent } from './content/content.component';
@@ -16,6 +18,9 @@ import { SidebarComponent } from './sidebar/sidebar.component';
   ],
   imports: [
     BrowserModule,
+    NbEvaIconsModule,
+    NbIconModule,
+    NbThemeModule.forRoot(),
     AppRoutingModule
   ],
   providers: [],
