@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
+import { LanguageService } from '../language.service';
 
 @Component({
   selector: 'app-sidebar',
@@ -7,9 +8,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SidebarComponent implements OnInit {
 
-  constructor() { }
+
+  constructor(public linguaSer: LanguageService) { }
 
   ngOnInit(): void {
   }
+
 
 }

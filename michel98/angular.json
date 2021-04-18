@@ -1,9 +1,12 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "cli": {
+    "analytics": false
+  },
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "michel98": {
+    "cv-angular": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +16,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/michel98",
+            "outputPath": "dist/cv-angular",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -25,29 +28,27 @@
             ],
             "styles": [
               "src/styles.css",
-              "node_modules/@nebular/theme/styles/prebuilt/default.css"
+              "node_modules/bootstrap/dist/css/bootstrap.min.css"
             ],
-            "scripts": [
-              "node_modules/jquery/dist/jquery.js",
-              "node_modules/popper.js/dist/umd/popper.min.js",
-              "node_modules/bootstrap/dist/js/bootstrap.min.js"
-            ]
+            "scripts": []
           },
           "configurations": {
             "production": {
-              "fileReplacements": [{
-                "replace": "src/environments/environment.ts",
-                "with": "src/environments/environment.prod.ts"
-              }],
+              "fileReplacements": [
+                {
+                  "replace": "src/environments/environment.ts",
+                  "with": "src/environments/environment.prod.ts"
+                }
+              ],
               "optimization": true,
               "outputHashing": "all",
               "sourceMap": false,
-              "extractCss": true,
               "namedChunks": false,
               "extractLicenses": true,
               "vendorChunk": false,
               "buildOptimizer": true,
-              "budgets": [{
+              "budgets": [
+                {
                   "type": "initial",
                   "maximumWarning": "2mb",
                   "maximumError": "5mb"
@@ -64,18 +65,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "michel98:build"
+            "browserTarget": "cv-angular:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "michel98:build:production"
+              "browserTarget": "cv-angular:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "michel98:build"
+            "browserTarget": "cv-angular:build"
           }
         },
         "test": {
@@ -90,8 +91,8 @@
               "src/assets"
             ],
             "styles": [
-              "node_modules/@nebular/theme/styles/prebuilt/default.css",
-              "src/styles.css"
+              "src/styles.css",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css"
             ],
             "scripts": []
           }
@@ -113,19 +114,16 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "michel98:serve"
+            "devServerTarget": "cv-angular:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "michel98:serve:production"
+              "devServerTarget": "cv-angular:serve:production"
             }
           }
         }
       }
     }
   },
-  "defaultProject": "michel98",
-  "cli": {
-    "analytics": false
-  }
+  "defaultProject": "cv-angular"
 }
