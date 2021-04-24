@@ -26,6 +26,6 @@
     <path fill="#C8102E" d="M0 208v96h512v-96H0zM208 0v512h96V0h-96z"/>
   </svg>
 </div>
-<span class="d-flex d-md-none openbtn clickable" *ngIf="closed" (click)="openNav()">&#9776;&nbsp; <h2 class="pt-2"
-    style="margin-bottom:0px"> {{linguaSer.getFile().info}}</h2></span>
+<span class="d-flex d-md-none closebtn clickable" *ngIf="closed" (click)="openNav()"> <h2 class="pt-2"
+  style="margin-bottom:0px"> {{linguaSer.getFile().info}}</h2>&nbsp;&#9776;</span>
 <button (click)="topFunction()" id="myBtn" title="Go to top"><i class="bi bi-arrow-up"></i></button>

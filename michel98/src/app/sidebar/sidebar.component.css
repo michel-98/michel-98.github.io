@@ -6,8 +6,8 @@
   height: 220px;
   border-radius: 50%;
   background-image: url("./../../assets/photo.jpeg");
-  background-position: right top;
-  background-size: 107%;
+  background-position:  top;
+  background-size: 150%;
   border: 4px solid #2c2b29;
 }
 
