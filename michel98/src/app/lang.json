@@ -16,7 +16,8 @@
         "diploma":"Diploma scientifico",
         "certificato": "Certificato di Web Appplication Engineer",
         "laurea":"Dottore in Informatica",
-        "work":"Lavoro"
+        "work":"Lavoro",
+      "contatti": "Contattami"
     },
     "eng": {
         "info": "INFO",
@@ -35,6 +36,7 @@
         "diploma":"Scientific diploma",
         "certificato": "Web Appplication Engineer Certificate",
         "laurea":"Graduated in Computer Science",
-        "work":"Work"
+        "work":"Work",
+       "contatti": "Contact me"
     }
 }
